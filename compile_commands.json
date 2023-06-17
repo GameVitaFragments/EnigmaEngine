@@ -1,0 +1,44 @@
+[
+  {
+    "directory": "/home/grx/Projects/ENgine/build",
+    "command": "c++ -Imain.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/main.cpp.o -MF main.p/main.cpp.o.d -o main.p/main.cpp.o -c ../main.cpp",
+    "file": "../main.cpp",
+    "output": "main.p/main.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/ENgine/build",
+    "command": "c++ -Imain.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/src_frameWork_sdl_render_ui_ui.cpp.o -MF main.p/src_frameWork_sdl_render_ui_ui.cpp.o.d -o main.p/src_frameWork_sdl_render_ui_ui.cpp.o -c ../src/frameWork/sdl/render/ui/ui.cpp",
+    "file": "../src/frameWork/sdl/render/ui/ui.cpp",
+    "output": "main.p/src_frameWork_sdl_render_ui_ui.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/ENgine/build",
+    "command": "c++ -Imain.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/src_frameWork_sdl_sound_music_music.cpp.o -MF main.p/src_frameWork_sdl_sound_music_music.cpp.o.d -o main.p/src_frameWork_sdl_sound_music_music.cpp.o -c ../src/frameWork/sdl/sound/music/music.cpp",
+    "file": "../src/frameWork/sdl/sound/music/music.cpp",
+    "output": "main.p/src_frameWork_sdl_sound_music_music.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/ENgine/build",
+    "command": "c++ -Imain.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/src_frameWork_sdl_render_render.cpp.o -MF main.p/src_frameWork_sdl_render_render.cpp.o.d -o main.p/src_frameWork_sdl_render_render.cpp.o -c ../src/frameWork/sdl/render/render.cpp",
+    "file": "../src/frameWork/sdl/render/render.cpp",
+    "output": "main.p/src_frameWork_sdl_render_render.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/ENgine/build",
+    "command": "c++ -Imain.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/src_frameWork_frameWork.cpp.o -MF main.p/src_frameWork_frameWork.cpp.o.d -o main.p/src_frameWork_frameWork.cpp.o -c ../src/frameWork/frameWork.cpp",
+    "file": "../src/frameWork/frameWork.cpp",
+    "output": "main.p/src_frameWork_frameWork.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/ENgine/build",
+    "command": "c++ -Imain.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/src_frameWork_sdl_window_window.cpp.o -MF main.p/src_frameWork_sdl_window_window.cpp.o.d -o main.p/src_frameWork_sdl_window_window.cpp.o -c ../src/frameWork/sdl/window/window.cpp",
+    "file": "../src/frameWork/sdl/window/window.cpp",
+    "output": "main.p/src_frameWork_sdl_window_window.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/ENgine/build",
+    "command": "c++ -Imain.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/src_frameWork_sdl_log_log.cpp.o -MF main.p/src_frameWork_sdl_log_log.cpp.o.d -o main.p/src_frameWork_sdl_log_log.cpp.o -c ../src/frameWork/sdl/log/log.cpp",
+    "file": "../src/frameWork/sdl/log/log.cpp",
+    "output": "main.p/src_frameWork_sdl_log_log.cpp.o"
+  }
+]

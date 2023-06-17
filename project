@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ $1 == "build" ];
+then
+    ./scripts/build.sh
+else
+    ./scripts/project.py $2 $3
+fi
