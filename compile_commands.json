@@ -1,0 +1,56 @@
+[
+  {
+    "directory": "/home/grx/Projects/gameEngine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -D_REENTRANT -MD -MQ main.p/main.cpp.o -MF main.p/main.cpp.o.d -o main.p/main.cpp.o -c ../main.cpp",
+    "file": "../main.cpp",
+    "output": "main.p/main.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/gameEngine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -D_REENTRANT -MD -MQ main.p/src_Utility_Timer_Timer.cpp.o -MF main.p/src_Utility_Timer_Timer.cpp.o.d -o main.p/src_Utility_Timer_Timer.cpp.o -c ../src/Utility/Timer/Timer.cpp",
+    "file": "../src/Utility/Timer/Timer.cpp",
+    "output": "main.p/src_Utility_Timer_Timer.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/gameEngine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -D_REENTRANT -MD -MQ main.p/src_Image_stb_image_stb_image.cpp.o -MF main.p/src_Image_stb_image_stb_image.cpp.o.d -o main.p/src_Image_stb_image_stb_image.cpp.o -c ../src/Image/stb_image/stb_image.cpp",
+    "file": "../src/Image/stb_image/stb_image.cpp",
+    "output": "main.p/src_Image_stb_image_stb_image.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/gameEngine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -D_REENTRANT -MD -MQ main.p/src_Image_Image.cpp.o -MF main.p/src_Image_Image.cpp.o.d -o main.p/src_Image_Image.cpp.o -c ../src/Image/Image.cpp",
+    "file": "../src/Image/Image.cpp",
+    "output": "main.p/src_Image_Image.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/gameEngine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -D_REENTRANT -MD -MQ main.p/src_Image_SDLImage.cpp.o -MF main.p/src_Image_SDLImage.cpp.o.d -o main.p/src_Image_SDLImage.cpp.o -c ../src/Image/SDLImage.cpp",
+    "file": "../src/Image/SDLImage.cpp",
+    "output": "main.p/src_Image_SDLImage.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/gameEngine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -D_REENTRANT -MD -MQ main.p/src_Window_SDLWindow.cpp.o -MF main.p/src_Window_SDLWindow.cpp.o.d -o main.p/src_Window_SDLWindow.cpp.o -c ../src/Window/SDLWindow.cpp",
+    "file": "../src/Window/SDLWindow.cpp",
+    "output": "main.p/src_Window_SDLWindow.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/gameEngine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -D_REENTRANT -MD -MQ main.p/src_Engine_Engine.cpp.o -MF main.p/src_Engine_Engine.cpp.o.d -o main.p/src_Engine_Engine.cpp.o -c ../src/Engine/Engine.cpp",
+    "file": "../src/Engine/Engine.cpp",
+    "output": "main.p/src_Engine_Engine.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/gameEngine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -D_REENTRANT -MD -MQ main.p/src_Audio_Audio.cpp.o -MF main.p/src_Audio_Audio.cpp.o.d -o main.p/src_Audio_Audio.cpp.o -c ../src/Audio/Audio.cpp",
+    "file": "../src/Audio/Audio.cpp",
+    "output": "main.p/src_Audio_Audio.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/gameEngine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -D_REENTRANT -MD -MQ main.p/src_Renderer_SDLRenderer.cpp.o -MF main.p/src_Renderer_SDLRenderer.cpp.o.d -o main.p/src_Renderer_SDLRenderer.cpp.o -c ../src/Renderer/SDLRenderer.cpp",
+    "file": "../src/Renderer/SDLRenderer.cpp",
+    "output": "main.p/src_Renderer_SDLRenderer.cpp.o"
+  }
+]
