@@ -31,5 +31,5 @@ void SDLWindow::pollEvents() {
 }
 
 SDLWindow::~SDLWindow() {
-    SDL_DestroyWindow(this->m_window);
+    //SDL_DestroyWindow(this->m_window);
 }

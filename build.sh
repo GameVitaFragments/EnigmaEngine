@@ -4,4 +4,5 @@ set -xe
 
 cd build
 meson compile
-./main
+cd ..
+./build/main

@@ -10,7 +10,7 @@ int main() {
 
     timer.reset();
 
-    e.loadImage("apple", "../assets/apple.jpg");
+    e.loadImage("apple", "assets/apple.jpg");
 
     timer.stop();
     timer.printTimerDuration();

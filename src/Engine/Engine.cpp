@@ -3,18 +3,19 @@
 #include "../Window/SDLWindow.hpp"
 #include "../Renderer/SDLRenderer.hpp"
 #include "../Image/SDLImage.hpp"
+#include <memory>
 #include <vector>
 
 Engine::Engine(RendererBackend rend, unsigned int w, unsigned int h, std::string t) {
     Engine::rb = rend;
     if (Engine::rb == SDL) {
-        m_window = new SDLWindow(w, h, t);
-        m_renderer = new SDLRenderer();
+        m_window = std::make_unique<SDLWindow>(w, h, t);
+        m_renderer = std::make_unique<SDLRenderer>();
     }
 }
 
 void Engine::InitRenderer() {
-    this->m_renderer->init(this->m_window);
+    this->m_renderer->init(this->m_window.get());
 }
 
 void Engine::update() {
@@ -29,6 +30,5 @@ void Engine::loadImage(std::string name, std::string path) {
 }
 
 Engine::~Engine() {
-    delete this->m_window;
-    delete this->m_renderer;
+
 }

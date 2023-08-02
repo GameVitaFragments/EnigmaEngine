@@ -34,5 +34,5 @@ void* SDLImage::convertToSurface() {
 }
 
 SDLImage::~SDLImage() {
-    stbi_image_free(this->m_data);
+    
 }

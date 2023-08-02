@@ -3,6 +3,7 @@
 #include "../Window/Window.hpp"
 #include "../Renderer/Renderer.hpp"
 #include "../Image/Image.hpp"
+#include <memory>
 
 enum RendererBackend {
     SDL,
@@ -13,8 +14,8 @@ enum RendererBackend {
 
 class Engine {
     private:
-        WINDOW* m_window;
-        RENDERER* m_renderer;
+        std::unique_ptr<WINDOW> m_window;
+        std::unique_ptr<RENDERER> m_renderer;
 
         inline static RendererBackend rb;
     public:
