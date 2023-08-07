@@ -6,6 +6,8 @@
 #include <memory>
 #include <vector>
 
+namespace EE {
+
 namespace _customDeleter {
     struct SDLWindowDestroyer {
         void operator()(SDL_Window* w) const {
@@ -31,3 +33,4 @@ class SDLRenderer : public RENDERER {
         void drawAllImages() override;
         ~SDLRenderer() override;
 };
+}

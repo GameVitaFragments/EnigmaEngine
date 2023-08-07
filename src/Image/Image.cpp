@@ -1,5 +1,7 @@
 #include "Image.hpp"
 
+namespace EE {
+
 IMAGE::IMAGE(std::string _path) {
     this->m_path = _path;
     this->m_data = stbi_load(
@@ -13,4 +15,5 @@ IMAGE::IMAGE(std::string _path) {
 
 IMAGE::~IMAGE() {
     stbi_image_free(this->m_data);
+}
 }

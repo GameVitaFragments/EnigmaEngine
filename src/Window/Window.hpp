@@ -3,6 +3,8 @@
 #include <cstdint>
 #include <iostream>
 
+namespace EE {
+
 class WINDOW {
     public:
         unsigned int m_width;
@@ -20,3 +22,4 @@ class WINDOW {
 
         inline bool isWindowCLosed() { return m_isClosed; };
 };
+}

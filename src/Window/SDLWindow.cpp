@@ -2,6 +2,9 @@
 #include "SDL_timer.h"
 #include <cstdint>
 
+
+namespace EE {
+
 SDLWindow::SDLWindow(unsigned int w, unsigned int h, std::string t) : WINDOW(w, h, t) {
     this->init(w, h, t);
 }
@@ -32,4 +35,5 @@ void SDLWindow::pollEvents() {
 
 SDLWindow::~SDLWindow() {
     //SDL_DestroyWindow(this->m_window);
+}
 }

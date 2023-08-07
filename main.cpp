@@ -5,17 +5,17 @@ int main() {
 
     Utility::Timer timer("Global");
 
-    Engine e(SDL, 1280, 720, "ENGINE");
-    e.InitRenderer();
+    EE::Engine* e = new EE::Engine(EE::SDL, 1280, 720, "ENGINE");
+    e->InitRenderer();
 
     timer.reset();
 
-    e.loadImage("apple", "assets/apple.jpg");
+    e->loadImage("apple", "assets/apple.jpg");
 
     timer.stop();
     timer.printTimerDuration();
 
-    while (!e.isWindowClosed()) {
-        e.update();
+    while (!e->isWindowClosed()) {
+        e->update();
     }
 }

@@ -7,6 +7,9 @@
 #include "stb_image/stb_image.h"
 
 // forward declaration of Renderer to avoid circular dependency
+
+namespace EE {
+
 class Renderer;
 
 class IMAGE {
@@ -28,3 +31,6 @@ class IMAGE {
 
         virtual ~IMAGE() = 0;
 };
+
+
+}

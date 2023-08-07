@@ -5,6 +5,8 @@
 #include "../Image/Image.hpp"
 #include <memory>
 
+namespace EE {
+
 enum RendererBackend {
     SDL,
     OPENGL,
@@ -30,3 +32,4 @@ class Engine {
 
         ~Engine();
 };
+}

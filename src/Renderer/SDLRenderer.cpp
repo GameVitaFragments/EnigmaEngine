@@ -6,6 +6,8 @@
 #include <cstdlib>
 #include <memory>
 
+namespace EE {
+
 void SDLRenderer::init(WINDOW* win) {
     this->m_window = std::unique_ptr<SDL_Window, _customDeleter::SDLWindowDestroyer>((SDL_Window*)win->getWindow());
     this->m_renderer = std::unique_ptr<SDL_Renderer, _customDeleter::SDLRendererDestroyer>(SDL_CreateRenderer(this->m_window.get(),-1,SDL_RENDERER_ACCELERATED));
@@ -46,4 +48,5 @@ void SDLRenderer::drawAllImages() {
 SDLRenderer::~SDLRenderer() {
     // SDL_DestroyRenderer(this->m_renderer);
     SDL_Quit();
+}
 }

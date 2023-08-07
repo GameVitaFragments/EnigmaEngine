@@ -3,6 +3,9 @@
 #include "Window.hpp"
 #include <SDL2/SDL.h>
 
+
+namespace EE {
+
 class SDLWindow : public WINDOW {
     private:
         SDL_Window* m_window;
@@ -13,3 +16,5 @@ class SDLWindow : public WINDOW {
         inline void* getWindow() override { return m_window; }
         ~SDLWindow();
 };
+
+}

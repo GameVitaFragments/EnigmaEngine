@@ -6,6 +6,9 @@
 #include <memory>
 #include <vector>
 
+namespace EE {
+
+
 Engine::Engine(RendererBackend rend, unsigned int w, unsigned int h, std::string t) {
     Engine::rb = rend;
     if (Engine::rb == SDL) {
@@ -30,5 +33,7 @@ void Engine::loadImage(std::string name, std::string path) {
 }
 
 Engine::~Engine() {
+
+}
 
 }

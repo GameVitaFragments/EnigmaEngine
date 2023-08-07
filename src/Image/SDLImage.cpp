@@ -3,6 +3,8 @@
 #include "stb_image/stb_image.h"
 #include <cstdlib>
 
+namespace EE {
+
 SDLImage::SDLImage(std::string path) : IMAGE(path) {}
 
 void* SDLImage::convertToSurface() {
@@ -35,4 +37,5 @@ void* SDLImage::convertToSurface() {
 
 SDLImage::~SDLImage() {
     //stbi_image_free(this->m_data);
+}
 }

@@ -5,6 +5,9 @@
 #include <vector>
 #include <unordered_map>
 
+
+namespace EE {
+
 // forward declaration of IMAGE to avoid circular dependency
 class IMAGE;
 class WINDOW;
@@ -12,8 +15,6 @@ class WINDOW;
 class RENDERER {
     public:
         // TODO: remove this line later
-        //std::vector<IMAGE*> m_images;
-
         std::unordered_map<std::string, std::unique_ptr<IMAGE>> m_images;
 
         virtual void init(WINDOW* win) = 0;
@@ -23,3 +24,4 @@ class RENDERER {
 
         virtual ~RENDERER() {};
 };
+}
