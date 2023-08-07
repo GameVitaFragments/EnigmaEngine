@@ -1,4 +1,0 @@
-1. Add a color class
-2. Add appropriate namespace
-3. Add a GUI class
-4. Image Loading

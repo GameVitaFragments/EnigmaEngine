@@ -18,4 +18,4 @@ subdir('src/Engine')
 subdir('src/Audio')
 subdir('src/Renderer')
 
-executable('main', sources, dependencies: [sdlDep, glmDep])
+executable('main', sources, dependencies: [sdlDep, glmDep]) #cpp_args: ['-pg'], link_args: ['-pg'])
