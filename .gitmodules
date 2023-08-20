@@ -1,0 +1,3 @@
+[submodule "subprojects/FragLogger"]
+	path = subprojects/FragLogger
+	url = git@github.com:Bharath33-Krishnan/FragLogger.git
