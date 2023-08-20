@@ -27,9 +27,9 @@ class IMAGE {
         inline int32_t getWidth() { return m_width; }
         inline int32_t getHeight() { return m_height; }
 
-        virtual void* convertToSurface() = 0;
+        // virtual void* convertToSurface() = 0;
 
-        virtual ~IMAGE() = 0;
+        virtual ~IMAGE();
 };
 
 

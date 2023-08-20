@@ -2,7 +2,7 @@
 
 #include "Renderer.hpp"
 #include "../Window/SDLWindow.hpp"
-#include "src/Image/SDLImage.hpp"
+// #include "src/Image/SDLImage.hpp"
 #include <memory>
 #include <vector>
 
@@ -31,6 +31,7 @@ class SDLRenderer : public RENDERER {
         void clearScreen() override;
         void loadImage(std::string name, std::string path) override;
         void drawAllImages() override;
+        void* convertToSurface(std::unique_ptr<IMAGE>& img);  
         ~SDLRenderer() override;
 };
 }

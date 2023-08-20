@@ -2,7 +2,6 @@
 
 #include "../Window/SDLWindow.hpp"
 #include "../Renderer/SDLRenderer.hpp"
-#include "../Image/SDLImage.hpp"
 #include <memory>
 #include <vector>
 

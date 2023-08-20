@@ -1,2 +1,2 @@
 sources += files('Image.cpp')
-sources += files('SDLImage.cpp')
+# sources += files('SDLImage.cpp')

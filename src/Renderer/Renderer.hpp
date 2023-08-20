@@ -1,6 +1,6 @@
 #pragma once
 
-#include <memory>
+#include "../Components/Sprite/Sprite.hpp"
 #include <string>
 #include <vector>
 #include <unordered_map>
@@ -15,7 +15,7 @@ class WINDOW;
 class RENDERER {
     public:
         // TODO: remove this line later
-        std::unordered_map<std::string, std::unique_ptr<IMAGE>> m_images;
+        std::unordered_map<std::string, std::unique_ptr<Sprite>> m_images;
 
         virtual void init(WINDOW* win) = 0;
         virtual void clearScreen() = 0;

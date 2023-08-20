@@ -10,6 +10,9 @@ glmDep = dependency('glm')
 sources = files('main.cpp')
 
 
+subdir('src/Entity')
+subdir('src/Components/Transform')
+subdir('src/Components/Sprite')
 subdir('src/Utility/Timer')
 subdir('src/Image/stb_image')
 subdir('src/Image')
